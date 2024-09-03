@@ -2,4 +2,55 @@ body {
     background-color: aqua;
     color: hsl(0, 0%, 22%);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 60px;
+}
+
+header {
+    display: flex;
+   /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: hsl(138, 99%, 47%);
+    align-items: flex-end;
+    padding: 10px 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 36, 36);
+}
+
+.banner {
+    background-image: url("../images/pexels-jon-gol-253752729-12532755.jpg");
+    background-position: center;
+    background-size:  cover;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
+
+.banner h1 {
+    color: #1100fc;
+    background-color: black;
+    padding: 10px;
 }
