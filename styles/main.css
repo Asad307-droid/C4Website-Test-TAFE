@@ -13,7 +13,7 @@ img {
     max-width: 60px;
 }
 
-header {
+.main-header {
     display: flex;
    /* flex-direction: row;
     flex-wrap: wrap; */
@@ -26,7 +26,7 @@ header {
 
 .navigation {
     display: flex;
-    flex-flow: row-wrap;
+    flex-flow: row wrap;
 }
 
 .navigation a {
@@ -51,6 +51,41 @@ header {
 
 .banner h1 {
     color: #1100fc;
-    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.363);
     padding: 10px;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 2em auto;
+    gap: 20px;
+}
+
+.card-image {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    border: 1px solid #04040c;
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.card-button {
+    background-color: #04040c;
+    color: white;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 75%;
+    align-self: center;
+
 }
