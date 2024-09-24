@@ -89,3 +89,20 @@ img {
     align-self: center;
 
 }
+
+.main-footer {
+    background-color: #04040c;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-footer a{
+    color:white;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: white;
+}
