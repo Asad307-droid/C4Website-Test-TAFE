@@ -1,0 +1,19 @@
+@media screen and (max-width: 57px) {
+    .home-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+ .navigation {
+    flex-direction: column;
+ } 
+ .serach {
+    width: 100%;
+    display: flex;
+ }
+
+ .logo {
+    margin: auto;
+ }
+
+}

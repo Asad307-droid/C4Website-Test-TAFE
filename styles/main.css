@@ -40,6 +40,20 @@ img {
     background-color: rgb(126, 36, 36);
 }
 
+.nav-button {
+    align-self: center;
+    font-size: 44px;
+    padding: 5px;
+    min-width: 44px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.nav-button:focus {
+    background-color: black;
+    color: white;
+}
+
 .banner {
     background-image: url("../images/pexels-jon-gol-253752729-12532755.jpg");
     background-position: center;
